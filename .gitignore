@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package id.blits.percabangandanperulangan;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author user
+ */
+public class TugasPraktek {
+    
+    public static void main(String[] args) {
+    
+    Scanner input = new Scanner(System.in);
+    //perulangan do while
+    int E= 0;
+    do{
+        System.out.println("nilai mahasiswa E : "+E);
+        E++;
+    }while (E<8);
+    
+    //percabangan if
+    int nilaimahasiswa = input.nextInt();
+    if ( nilaimahasiswa >= 90 )
+ { System.out.println( "A" ); } else if ( nilaimahasiswa >= 90)
+ { System.out.println( "B" ); } else if ( nilaimahasiswa >= 75)
+ { System.out.println( "C" ); } else if ( nilaimahasiswa >= 65)
+ { System.out.println( "D" ); } else {System.out.println("F");
+}}}
